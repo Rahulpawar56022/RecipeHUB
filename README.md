@@ -1,86 +1,200 @@
-# RecipeHub 🍳
+````md
+<div align="center">
 
-RecipeHub is a full-stack, modern social recipe sharing and AI-powered meal planning platform. It features a premium UI, user authentication, recipe discovery, community engagement, and AI-generated recipes.
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=38&pause=1000&color=FF7A00&center=true&vCenter=true&repeat=true&width=1000&height=80&lines=🍳+Welcome+to+RecipeHub;🤖+AI+Powered+Recipe+Platform;🍕+Cook+•+Share+•+Discover+•+Enjoy" />
 
-## Tech Stack
-*   **Frontend**: React (Vite), Tailwind CSS v4, Framer Motion
-*   **Backend**: Java Spring Boot, Spring Security, JWT Auth
-*   **Database**: MySQL
-*   **AI Integration**: OpenAI API
+<br>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&text=RecipeHub&fontAlign=50&fontAlignY=40&desc=Modern%20Social%20Recipe%20Sharing%20Platform&descAlign=50&descAlignY=62&animation=fadeIn"/>
 
-## 🚀 Getting Started Guide
+<br><br>
 
-Follow these steps to run the complete application on your local machine.
+<img src="https://skillicons.dev/icons?i=react,java,spring,mysql,tailwind,git,github,vscode" />
 
-### Step 1: Set up the MySQL Database
+<br><br>
 
-You need MySQL installed and running on your machine.
+<img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react"/>
+<img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge&logo=springboot"/>
+<img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge&logo=mysql"/>
+<img src="https://img.shields.io/badge/Auth-JWT-red?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI-OpenAI-black?style=for-the-badge"/>
 
-1. Open your MySQL command-line client or a GUI tool like MySQL Workbench.
-2. Log in to MySQL (e.g., `mysql -u root -p`).
-3. Create the database by running:
-   ```sql
-   CREATE DATABASE recipehub;
-   ```
-*(Note: Spring Boot will automatically create the required tables when you start the backend, thanks to the `spring.jpa.hibernate.ddl-auto=update` setting).*
-
-### Step 2: Configure the Backend
-
-1. Navigate to the backend properties file: `backend/src/main/resources/application.properties`
-2. Update your MySQL username and password if they differ from the defaults (`root` / `root`).
-   ```properties
-   spring.datasource.username=YOUR_MYSQL_USERNAME
-   spring.datasource.password=YOUR_MYSQL_PASSWORD
-   ```
-3. *(Optional)* If you want to test the AI Recipe Generator, add your OpenAI API key in the same file:
-   ```properties
-   openai.api.key=sk-your-openai-api-key
-   ```
-
-### Step 3: Run the Backend (Spring Boot)
-
-1. Open a new terminal.
-2. Navigate to the `backend` directory:
-   ```bash
-   cd backend
-   ```
-3. Run the Spring Boot application using Maven:
-   ```bash
-   .\mvnw.cmd spring-boot:run
-   ```
-   *(For Mac/Linux use: `./mvnw spring-boot:run`)*
-4. The backend API will start running at **http://localhost:8080**.
-
-### Step 4: Run the Frontend (React Vite)
-
-1. Open a second new terminal.
-2. Navigate to the `frontend` directory:
-   ```bash
-   cd frontend
-   ```
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the Vite development server:
-   ```bash
-   npm run dev
-   ```
-5. The frontend will start running at **http://localhost:5173**. Open this URL in your browser.
+</div>
 
 ---
 
-## 🛠️ Features
+# 🌟 About RecipeHub
 
-*   **User Authentication**: JWT-based secure login and registration.
-*   **Discover Recipes**: Browse, search, and filter recipes by category or difficulty.
-*   **AI Recipe Generator**: Input your available ingredients and let AI craft a recipe for you.
-*   **Meal Planner**: Plan your weekly meals and auto-generate grocery shopping lists.
-*   **Community**: Engage with other chefs, like recipes, and climb the leaderboard.
-*   **Admin Dashboard**: Manage users and approve new recipe submissions.
+RecipeHub is a **premium full-stack AI-powered recipe platform** where users can:
 
-## 🤝 Demo Accounts
+🍲 Discover recipes  
+🤖 Generate recipes with AI  
+📅 Plan weekly meals  
+🛒 Auto-generate grocery lists  
+❤️ Like / Save / Share recipes  
+🏆 Join a cooking community  
 
-Once the database is set up, you can manually seed it using the SQL script in `database/schema.sql` or create new accounts via the frontend Sign Up page.
+---
+
+# ✨ Live Preview
+
+<p align="center">
+  <img src="assets/demo.gif" width="90%" />
+</p>
+
+---
+
+# 🚀 Features
+
+<table>
+<tr>
+<td width="50%">
+
+## 🤖 AI Features
+- AI Recipe Generator
+- Ingredient-based Suggestions
+- Personalized Meal Plans
+- Smart Grocery List
+- Nutrition Suggestions
+
+</td>
+<td width="50%">
+
+## 👨‍🍳 Community Features
+- Upload Recipes
+- Like & Save Recipes
+- Follow Chefs
+- Comments
+- Trending Feed
+- Leaderboard
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technology |
+|---------|------------|
+| Frontend | React + Vite |
+| Styling | Tailwind CSS v4 |
+| Animation | Framer Motion |
+| Backend | Spring Boot |
+| Security | Spring Security + JWT |
+| Database | MySQL |
+| AI | OpenAI API |
+
+---
+
+# 🏗 Architecture
+
+```txt
+Frontend (React)
+      ↓
+REST API
+      ↓
+JWT Security
+      ↓
+Spring Boot
+      ↓
+Hibernate / JPA
+      ↓
+MySQL
+      ↓
+OpenAI API
+````
+
+---
+
+# 📸 Screenshots
+
+<div align="center">
+
+<img src="assets/home.png" width="80%"/>
+
+<br><br>
+
+<img src="assets/recipe.png" width="80%"/>
+
+<br><br>
+
+<img src="assets/dashboard.png" width="80%"/>
+
+</div>
+
+---
+
+# ⚙ Installation
+
+## Clone
+
+```bash
+git clone https://github.com/yourusername/RecipeHub.git
+cd RecipeHub
+```
+
+## Backend
+
+```bash
+cd backend
+./mvnw spring-boot:run
+```
+
+## Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+# 📈 Project Stats
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
+
+</div>
+
+---
+
+# 🌍 Future Roadmap
+
+✅ Mobile App
+✅ Voice Cooking Assistant
+✅ AI Nutrition Coach
+✅ Video Recipes
+✅ Smart Kitchen Integration
+
+---
+
+# 🤝 Contribution
+
+Contributions are welcome!
+
+Fork → Code → Commit → Pull Request 🚀
+
+---
+
+# 👨‍💻 Developer
+
+**Rahul Pawar**
+
+Java Full Stack Developer • AI Enthusiast • Builder 🚀
+
+---
+
+<div align="center">
+
+### ⭐ Star this repository if you like the project ⭐
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient"/>
+
+</div>
+```
