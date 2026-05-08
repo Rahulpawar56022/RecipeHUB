@@ -1,148 +1,198 @@
-````md
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=38&pause=1000&color=FF7A00&center=true&vCenter=true&repeat=true&width=1000&height=80&lines=🍳+Welcome+to+RecipeHub;🤖+AI+Powered+Recipe+Platform;🍕+Cook+•+Share+•+Discover+•+Enjoy" />
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&text=RecipeHub&fontAlign=50&fontAlignY=40&desc=Modern%20Social%20Recipe%20Sharing%20Platform&descAlign=50&descAlignY=62&animation=fadeIn"/>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=react,java,spring,mysql,tailwind,git,github,vscode" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react"/>
-<img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge&logo=springboot"/>
-<img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge&logo=mysql"/>
-<img src="https://img.shields.io/badge/Auth-JWT-red?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AI-OpenAI-black?style=for-the-badge"/>
-
-</div>
-
----
-
-# 🌟 About RecipeHub
-
-RecipeHub is a **premium full-stack AI-powered recipe platform** where users can:
-
-🍲 Discover recipes  
-🤖 Generate recipes with AI  
-📅 Plan weekly meals  
-🛒 Auto-generate grocery lists  
-❤️ Like / Save / Share recipes  
-🏆 Join a cooking community  
-
----
-
-# ✨ Live Preview
+# 🍳 RecipeHub — AI Powered Social Recipe Platform
 
 <p align="center">
-  <img src="assets/demo.gif" width="90%" />
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge&logo=springboot" />
+  <img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge&logo=mysql" />
+  <img src="https://img.shields.io/badge/Auth-JWT-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-OpenAI-black?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <b>A modern full-stack recipe sharing platform with AI-powered meal planning 🍽️</b>
 </p>
 
 ---
 
-# 🚀 Features
+## 📌 Overview
 
-<table>
-<tr>
-<td width="50%">
+**RecipeHub** is a premium full-stack web application designed for food lovers, home chefs, and health-conscious users.
 
-## 🤖 AI Features
-- AI Recipe Generator
-- Ingredient-based Suggestions
-- Personalized Meal Plans
-- Smart Grocery List
-- Nutrition Suggestions
+It combines **social recipe sharing**, **community engagement**, and **AI-powered recipe generation** into one beautiful platform.
 
-</td>
-<td width="50%">
+Users can:
 
-## 👨‍🍳 Community Features
-- Upload Recipes
-- Like & Save Recipes
-- Follow Chefs
-- Comments
-- Trending Feed
-- Leaderboard
-
-</td>
-</tr>
-</table>
+✅ Discover recipes
+✅ Share cooking ideas
+✅ Generate recipes using AI
+✅ Plan weekly meals
+✅ Create shopping lists automatically
+✅ Connect with other food lovers
 
 ---
 
-# 🛠 Tech Stack
+## ✨ Features
 
-| Category | Technology |
-|---------|------------|
-| Frontend | React + Vite |
-| Styling | Tailwind CSS v4 |
-| Animation | Framer Motion |
-| Backend | Spring Boot |
-| Security | Spring Security + JWT |
-| Database | MySQL |
-| AI | OpenAI API |
+### 🔐 Authentication & Security
+
+* Secure JWT Authentication
+* User Registration & Login
+* Password Encryption using Spring Security
+* Protected Routes
+* Role-based Access (User / Admin)
 
 ---
 
-# 🏗 Architecture
+### 🍲 Recipe Management
 
-```txt
-Frontend (React)
-      ↓
-REST API
-      ↓
-JWT Security
-      ↓
-Spring Boot
-      ↓
-Hibernate / JPA
-      ↓
-MySQL
-      ↓
-OpenAI API
-````
+* Create Recipes
+* Upload Food Images
+* Add Ingredients & Cooking Steps
+* Category Filtering
+* Difficulty Level Filtering
+* Cooking Time Estimation
+* Search Recipes by Name
 
 ---
 
-# 📸 Screenshots
+### 🤖 AI Recipe Generator
 
-<div align="center">
+Generate recipes instantly using AI by entering:
 
-<img src="assets/home.png" width="80%"/>
+* Available Ingredients
+* Cuisine Preference
+* Meal Type
+* Calories Goal
+* Dietary Preference (Veg / Vegan / Keto / High Protein)
 
-<br><br>
-
-<img src="assets/recipe.png" width="80%"/>
-
-<br><br>
-
-<img src="assets/dashboard.png" width="80%"/>
-
-</div>
+**Example:**
+*Input:* `Tomato, Cheese, Onion, Bread`
+*Output:* AI creates a complete recipe 🍕
 
 ---
 
-# ⚙ Installation
+### 📅 Smart Meal Planner
 
-## Clone
+* Weekly Meal Planning
+* Breakfast / Lunch / Dinner Scheduling
+* Auto Grocery List Generation
+* Nutrition Tracking
+* Healthy Meal Suggestions
 
-```bash
-git clone https://github.com/yourusername/RecipeHub.git
-cd RecipeHub
+---
+
+### 🌍 Community Features
+
+* Like Recipes ❤️
+* Save Recipes 🔖
+* Comment on Recipes 💬
+* Follow Other Chefs 👨‍🍳
+* Trending Recipes
+* Leaderboard System 🏆
+
+---
+
+### 👨‍💼 Admin Dashboard
+
+* Manage Users
+* Moderate Recipes
+* Approve New Posts
+* Analytics Dashboard
+* Remove Spam / Fake Accounts
+
+---
+
+## 🛠 Tech Stack
+
+| Layer       | Technology            |
+| ----------- | --------------------- |
+| Frontend    | React (Vite)          |
+| Styling     | Tailwind CSS v4       |
+| Animation   | Framer Motion         |
+| Backend     | Java Spring Boot      |
+| Security    | Spring Security + JWT |
+| Database    | MySQL                 |
+| AI          | OpenAI API            |
+| Build Tool  | Maven                 |
+| API Testing | Postman               |
+
+---
+
+## 🏗 System Architecture
+
+```text
+Frontend (React + Tailwind)
+        ↓
+REST API (Spring Boot)
+        ↓
+Authentication (JWT + Spring Security)
+        ↓
+Service Layer
+        ↓
+Repository Layer (JPA/Hibernate)
+        ↓
+MySQL Database
+        ↓
+OpenAI Integration (AI Recipe Generation)
 ```
 
-## Backend
+---
+
+## 🚀 Installation Guide
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/yourusername/recipehub.git
+cd recipehub
+```
+
+---
+
+## 2️⃣ Setup Database
+
+Create MySQL Database:
+
+```sql
+CREATE DATABASE recipehub;
+```
+
+---
+
+## 3️⃣ Configure Backend
+
+Navigate to:
+
+```bash
+backend/src/main/resources/application.properties
+```
+
+Update:
+
+```properties
+spring.datasource.username=root
+spring.datasource.password=your_password
+openai.api.key=your_openai_api_key
+```
+
+---
+
+## 4️⃣ Run Backend
 
 ```bash
 cd backend
-./mvnw spring-boot:run
+.\mvnw.cmd spring-boot:run
 ```
 
-## Frontend
+Runs on:
+
+```bash
+http://localhost:8080
+```
+
+---
+
+## 5️⃣ Run Frontend
 
 ```bash
 cd frontend
@@ -150,51 +200,83 @@ npm install
 npm run dev
 ```
 
----
+Runs on:
 
-# 📈 Project Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
-
-</div>
+```bash
+http://localhost:5173
+```
 
 ---
 
-# 🌍 Future Roadmap
+## 📸 Screenshots
 
-✅ Mobile App
-✅ Voice Cooking Assistant
-✅ AI Nutrition Coach
-✅ Video Recipes
-✅ Smart Kitchen Integration
+Add screenshots here:
+
+```md
+/assets/homepage.png
+/assets/recipe-page.png
+/assets/ai-generator.png
+/assets/dashboard.png
+```
+
+Example:
+
+```html
+<img src="assets/homepage.png" width="100%" />
+```
 
 ---
 
-# 🤝 Contribution
+## API Modules
 
-Contributions are welcome!
-
-Fork → Code → Commit → Pull Request 🚀
+* Authentication API
+* User API
+* Recipe API
+* AI Recipe API
+* Meal Planner API
+* Admin API
 
 ---
 
-# 👨‍💻 Developer
+## Future Improvements
+
+* Mobile App Version 📱
+* Video Recipe Upload 🎥
+* Voice-based Cooking Assistant 🎙️
+* AI Nutrition Coach 🥗
+* Smart Kitchen IoT Integration 🍳
+* Multi-language Support 🌍
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome.
+
+For major changes:
+
+1. Fork repository
+2. Create feature branch
+3. Commit changes
+4. Push branch
+5. Open Pull Request
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+## 👨‍💻 Developer
 
 **Rahul Pawar**
 
-Java Full Stack Developer • AI Enthusiast • Builder 🚀
+Java Full Stack Developer | AI Enthusiast | Problem Solver 🚀
 
 ---
 
-<div align="center">
-
-### ⭐ Star this repository if you like the project ⭐
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient"/>
-
-</div>
-```
+<p align="center">
+⭐ If you like this project, give it a star on GitHub ⭐
+</p>
