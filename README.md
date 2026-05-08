@@ -211,8 +211,19 @@ http://localhost:5173
 ## 📸 Screenshots
 
 Add screenshots here:
+<h2>Home Page</h2>
+<img width="1918" height="1078" alt="homepage" src="https://github.com/user-attachments/assets/459bdba7-9cfa-415c-9028-6600d90bb27e" />
 
-<img width="1918" height="1078" alt="ai-generator" src="https://github.com/user-attachments/assets/32428dc8-c3d7-4da4-b339-84df5765f4fd" />
+<h2>Recipe Page</h2>
+<img width="1918" height="1078" alt="recipe-page" src="https://github.com/user-attachments/assets/3e70d07a-80c6-4724-b1db-5470716153bb" />
+
+<h2>AI recipe-generator</h2>
+<img width="1918" height="1078" alt="ai-generator" src="https://github.com/user-attachments/assets/22fd72f1-d022-4872-b83b-e8d9ec4276c7" />
+
+<h2>Dashboard</h2>
+<img width="1918" height="1078" alt="dashboard" src="https://github.com/user-attachments/assets/317dfb1d-ae3f-470b-8e7a-a9bbe1526c68" />
+
+
 
 
 Example:
