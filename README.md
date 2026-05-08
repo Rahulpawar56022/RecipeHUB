@@ -223,16 +223,7 @@ Add screenshots here:
 <h2>Dashboard</h2>
 <img width="1918" height="1078" alt="dashboard" src="https://github.com/user-attachments/assets/317dfb1d-ae3f-470b-8e7a-a9bbe1526c68" />
 
-
-
-
-Example:
-
-```html
-<img src="assets/homepage.png" width="100%" />
-```
-
----
+<h2>For more Screenshots check /AllScreenshots.md file</h2>
 
 ## API Modules
 
