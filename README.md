@@ -212,12 +212,8 @@ http://localhost:5173
 
 Add screenshots here:
 
-```md
-/assets/homepage.png
-/assets/recipe-page.png
-/assets/ai-generator.png
-/assets/dashboard.png
-```
+<img width="1918" height="1078" alt="ai-generator" src="https://github.com/user-attachments/assets/32428dc8-c3d7-4da4-b339-84df5765f4fd" />
+
 
 Example:
 
